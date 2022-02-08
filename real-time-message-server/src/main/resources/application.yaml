@@ -1,0 +1,11 @@
+rtms:
+  port: 9092
+  hostname: 0.0.0.0
+authenticator: ms-account
+# authenticator: anonymous
+extra:
+  account-endpoint: http://192.168.0.8:9004
+logging:
+  level:
+    com.corundumstudio.socketio: INFO
+    ltd.ihk: DEBUG
